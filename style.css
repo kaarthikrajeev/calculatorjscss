@@ -1,0 +1,77 @@
+body{
+    background: fixed;
+    background-image: linear-gradient(170deg, rgba(218, 128, 44, 0.921) 0%, rgb(70, 111, 199) 75%);
+    
+}
+.calc{
+    width: 450px;
+    height: 600px;
+    background: rgb(25, 232, 236);
+    margin-left: 360px;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0, 0, 0.63);
+}
+#screen{
+    width: 80%;
+    height: 94px;
+    margin-top: 23px;
+    margin-left: 23px;
+    border-radius: 14px;
+    border-color: rgb(25, 232, 236);
+    padding-left: 38px;
+    pointer-events: none;
+    background: rgb(62, 218, 221);
+    font-size: larger;
+    font-weight: bolder;
+    border-style: none;
+    color: rgb(46, 100, 100);
+    box-shadow: 0px 0px 6px rgba(0,0, 0, 0.23);
+}
+
+
+.btn{
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 82px;
+    height: 79px;
+    border-style: none;
+    background: rgb(25, 232, 236);
+    font-weight: bold;
+    border-color: rgb(25, 232, 236);
+    border-radius: 40px;
+    transition: background-color 2s;
+    
+
+}
+.btn:hover{
+    background: rgb(13, 152, 155);
+    transition: all 0.7s ease-out;
+    
+    
+}
+.row{
+    padding-left: 20px;
+}
+.clr{
+    margin-top: 16px;
+    margin-left: 332px;
+    width: 105px;
+    height: 63px;
+    border-radius: 14px;
+    padding: 5px;
+    background: rgb(25, 232, 236);
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    border-style: none;
+
+}
+.clr:hover{
+    background: rgb(13, 152, 155);
+}
+.btn:active{
+    background: rgb(13, 152, 155);
+    transition: all 0.7s ease-out;
+}
